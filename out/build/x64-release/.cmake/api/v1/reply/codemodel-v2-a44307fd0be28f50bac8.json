@@ -1,0 +1,285 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "PCB_Traces",
+					"jsonFile" : "directory-PCB_Traces-Release-2e244289462ac3fd16b5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "PCB_Traces",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "unitTests",
+					"jsonFile" : "directory-unitTests-Release-6bd4d727c8529b3be756.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "unitTests",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "gui",
+					"jsonFile" : "directory-gui-Release-7b85fb46da2567f2394e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "gui",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "lib/gtest",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.gtest-Release-fed85a4883fd6daad88d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "lib/gtest"
+				},
+				{
+					"build" : "lib/gtest/googlemock",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.gtest.googlemock-Release-2ac38baa0353ff089ea3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "lib/gtest/googlemock",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"build" : "lib/gtest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-lib.gtest.googletest-Release-363fe02ba414a0c0df95.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "lib/gtest/googletest",
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "PCB_Traces",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "PCB_Traces_GUI",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gmock",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "PCB_Traces_GUI::@35f413a6cfe5475b20aa",
+					"jsonFile" : "target-PCB_Traces_GUI-Release-d7c3767f5a294a36f7ed.json",
+					"name" : "PCB_Traces_GUI",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "PCB_Traces_GUI_autogen::@35f413a6cfe5475b20aa",
+					"jsonFile" : "target-PCB_Traces_GUI_autogen-Release-9408cd1efb5110fab74d.json",
+					"name" : "PCB_Traces_GUI_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "PCB_Traces_lib::@d73cac13171a8a8d12d3",
+					"jsonFile" : "target-PCB_Traces_lib-Release-f692c65c023addf7d04c.json",
+					"name" : "PCB_Traces_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "PCB_Traces_run::@d73cac13171a8a8d12d3",
+					"jsonFile" : "target-PCB_Traces_run-Release-a6008701277e3697c195.json",
+					"name" : "PCB_Traces_run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "PCB_Traces_tst::@49d27c9c2595e8831c8e",
+					"jsonFile" : "target-PCB_Traces_tst-Release-5e67043f34c9443571a4.json",
+					"name" : "PCB_Traces_tst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock::@9e30e9e615c9660e270c",
+					"jsonFile" : "target-gmock-Release-8a395651b5f2dbc638df.json",
+					"name" : "gmock",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock_main::@9e30e9e615c9660e270c",
+					"jsonFile" : "target-gmock_main-Release-15b5e94e320019b4f26a.json",
+					"name" : "gmock_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@d47a433364e7c936fa95",
+					"jsonFile" : "target-gtest-Release-c27c30373d6c1a95425e.json",
+					"name" : "gtest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@d47a433364e7c936fa95",
+					"jsonFile" : "target-gtest_main-Release-d5a6470f9146f74b8b3c.json",
+					"name" : "gtest_main",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Development/private/PCB_Traces/out/build/x64-release",
+		"source" : "C:/Development/private/PCB_Traces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
