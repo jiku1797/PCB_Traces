@@ -12,7 +12,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 #set(CMAKE_CXX_CLANG_TIDY "clang-tidy;-checks=*")
 
 set(CMAKE_CXX_FLAGS_RELEASE "/MT")
-set(CMAKE_CXX_FLAGS_DEBUG "/MTd")
+#set(CMAKE_CXX_FLAGS_DEBUG "/MTd")
 
 include_directories(PCB_Traces)
 include_directories(unitTests)

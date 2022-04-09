@@ -7,7 +7,10 @@
 bool SegmentValidator::isCrossing(const ptt::LineSegment& ls) const 
 {    
    if(!m_traceSet)
+   {
       puts("Invalid trace set!");
+      return false;
+   }
 
    
    if(m_traceSet->empty())
