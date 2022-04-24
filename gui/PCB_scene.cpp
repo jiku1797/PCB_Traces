@@ -94,7 +94,9 @@ void PCB_scene::handleReset(bool clicked)
    emit isValid(-1);
    
    // clear scene
-   clear();   
+   clear();
+
+   m_firstClick = true;
 
    // reset controller
    m_controller.reset();
